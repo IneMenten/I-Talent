@@ -30,7 +30,7 @@
               "src/css/bootstrap.css"
             ],
             "scripts": [
-              "src/css/bootstrap.js"
+              "src/js/bootstrap.js"
             ]
           },
           "configurations": {
