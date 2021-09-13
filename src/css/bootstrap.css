@@ -3844,7 +3844,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #0d6efd;
+  color: #5eb34b;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3854,7 +3854,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #0a58ca;
+  color: #478739;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -3884,8 +3884,8 @@ textarea.form-control-lg {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: #f8f9fa;
+  border-color: #ebedf0 #ebedf0 #f8f9fa;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
