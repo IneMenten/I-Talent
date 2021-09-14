@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {ActivitiesComponent} from "./components/activities/activities.component";
-import {VoorstellingComponent} from "./components/voorstelling/voorstelling.component";
+import {IntroductionComponent} from "./components/introduction/introduction.component";
 
 const routes: Routes = [
   {
     path: 'voorstelling',
-    component: VoorstellingComponent,
+    component: IntroductionComponent,
     data: {title: 'Voorstelling', state: '0'}
   },
   {
