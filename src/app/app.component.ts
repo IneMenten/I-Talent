@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import {fadeAnimation} from "./animations";
 import {ActivatedRoute, NavigationEnd, Router, RouterOutlet} from "@angular/router";
 import {Title} from "@angular/platform-browser";
 import {filter, map} from "rxjs/operators";
+import {slideAnimation} from "./animations";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  animations: [fadeAnimation]
+  animations: [slideAnimation]
 })
 export class AppComponent {
   constructor(private router: Router, private activatedRoute: ActivatedRoute, private titleService: Title) {
@@ -35,6 +35,6 @@ export class AppComponent {
   }
 
   public getRouterOutletState(outlet: RouterOutlet) {
-    return outlet.isActivated ? outlet.activatedRoute : '';
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData.state;
   }
 }

@@ -1,27 +1,35 @@
-import {trigger, animate, transition, style, query} from '@angular/animations';
+import {trigger, animate, transition, style, query, group} from '@angular/animations';
 
-export const fadeAnimation =
-  trigger('fadeAnimation', [
-    transition('* => *', [
-      query(':enter',
-        [
-          style({opacity: 0})
-        ],
-        {optional: true}
-      ),
-      query(':leave',
-        [
-          style({opacity: 1}),
-          animate('0.2s', style({opacity: 0}))
-        ],
-        {optional: true}
-      ),
-      query(':enter',
-        [
-          style({opacity: 0}),
-          animate('0.2s', style({opacity: 1}))
-        ],
-        {optional: true}
-      )
-    ])
+export const slideAnimation =
+  trigger('slideAnimation', [
+    transition(':increment', slideRight()),
+    transition(':decrement', slideLeft())
   ]);
+
+function slideLeft() {
+  return [
+    query(':enter, :leave', style({position: 'fixed', width: '90%'}), {optional: true}),
+    group([
+      query(':enter', [style({transform: 'translateX(-100%)'}), animate('600ms ease-out', style({transform: 'translateX(0%)'}))], {
+        optional: true,
+      }),
+      query(':leave', [style({transform: 'translateX(0%)'}), animate('600ms ease-out', style({transform: 'translateX(100%)'}))], {
+        optional: true,
+      }),
+    ])
+  ];
+}
+
+function slideRight() {
+  return [
+    query(':enter, :leave', style({position: 'fixed', width: '90%'}), {optional: true}),
+    group([
+      query(':enter', [style({transform: 'translateX(100%)'}), animate('600ms ease-out', style({transform: 'translateX(0%)'}))], {
+        optional: true,
+      }),
+      query(':leave', [style({transform: 'translateX(0%)'}), animate('600ms ease-out', style({transform: 'translateX(-100%)'}))], {
+        optional: true,
+      }),
+    ])
+  ];
+}
