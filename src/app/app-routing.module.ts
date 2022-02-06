@@ -16,12 +16,12 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: 'voorstelling',
     pathMatch: 'full'
   },
   {
     path: '**',
-    redirectTo: '/home',
+    redirectTo: 'voorstelling',
     pathMatch: 'full'
   }
 ];
