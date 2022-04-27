@@ -1,0 +1,15 @@
+div {
+    height: 50%;
+}
+
+.flex {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
