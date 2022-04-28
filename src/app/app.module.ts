@@ -8,6 +8,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { ActivitiesComponent } from './components/activities/activities.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ActivityComponent } from './components/activity/activity.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HeaderComponent } from './components/header/header.component';
     NavbarComponent,
     ActivitiesComponent,
     IntroductionComponent,
-    HeaderComponent
+    HeaderComponent,
+    ActivityComponent
   ],
   imports: [
     BrowserModule,
