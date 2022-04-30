@@ -1,0 +1,13 @@
+.row-cols-3 .card {
+    margin: 5px;
+    width: calc(100% / 3 - 10px);
+}
+
+.row-cols-2 .card {
+    margin: 5px;
+    width: calc(100% / 2 - 10px);
+}
+
+.img-fixed-height {
+    height: 12vh;
+}

@@ -13,10 +13,10 @@ const routes: Routes = [
   {
     path: 'overzicht',
     component: ActivitiesComponent,
-    data: { title: 'Overzicht', state: '1' },
+    data: { title: 'Overzicht activiteiten', state: '1' },
   },
   {
-    path: 'activiteiten/:activityId',
+    path: 'activiteiten/:title',
     component: ActivityComponent,
     data: { title: 'Activiteiten', state: '2' },
   },

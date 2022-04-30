@@ -4,11 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ActivitiesComponent } from './components/activities/activities.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ActivityComponent } from './components/activity/activity.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,14 +18,15 @@ import { ActivityComponent } from './components/activity/activity.component';
     ActivitiesComponent,
     IntroductionComponent,
     HeaderComponent,
-    ActivityComponent
+    ActivityComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
