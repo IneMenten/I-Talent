@@ -1,35 +1,33 @@
 <div class="container">
-    <div class="accordion" id="accordionBasic">
-        <h1>Verplichte activiteiten</h1>
-        <div class="row row-cols-3">
-            <div class="card" *ngFor="let activity of obligatoryActivities">
-                <img class="img-fluid img-fixed-height align-self-center p-1" [src]="activity.imageUrl"
-                    alt="afbeelding">
-                <div class="card-body">
-                    <h5 class="card-title">{{activity.title}}</h5>
-                    <h6 class="card-subtitle mb-2">{{activity.domain}}</h6>
-                    <h6 class="card-subtitle mb-2">Datum: {{activity.date}}</h6>
-                    <h6 class="card-subtitle mb-2">Locatie: {{activity.location}}</h6>
-                    <h6 class="card-subtitle mb-2">Uren: {{activity.hours}}</h6>
-                    <p class="card-text">{{activity.description}}</p>
-                    <a *ngIf="activity.routerLink" href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+    <h1>Verplichte activiteiten</h1>
+    <div class="row row-cols-3">
+        <div class="card" *ngFor="let activity of obligatoryActivities">
+            <img class="img-fluid img-fixed-height align-self-center p-1" [src]="activity.imageUrl" alt="afbeelding">
+            <div class="card-body">
+                <h5 class="card-title">{{activity.title}}</h5>
+                <h6 class="card-subtitle mb-2">{{activity.domain}}</h6>
+                <h6 class="card-subtitle mb-2">Datum: {{activity.date}}</h6>
+                <h6 class="card-subtitle mb-2">Locatie: {{activity.location}}</h6>
+                <h6 class="card-subtitle mb-2">Uren: {{activity.hours}}</h6>
+                <p class="card-text">{{activity.description}}</p>
+                <a *ngIf="activity.routerLink" [routerLink]="activity.routerLink"
+                    class="btn btn-primary stretched-link">Lees verslag</a>
             </div>
         </div>
-        <h1>Extra activiteiten</h1>
-        <div class="row row-cols-2">
-            <div class="card" *ngFor="let activity of notObligatoryActivities">
-                <img class="img-fluid img-fixed-height align-self-center p-1" [src]="activity.imageUrl"
-                    alt="afbeelding">
-                <div class="card-body">
-                    <h5 class="card-title">{{activity.title}}</h5>
-                    <h6 class="card-subtitle mb-2">{{activity.domain}}</h6>
-                    <h6 class="card-subtitle mb-2">Datum: {{activity.date}}</h6>
-                    <h6 class="card-subtitle mb-2">Locatie: {{activity.location}}</h6>
-                    <h6 class="card-subtitle mb-2">Uren: {{activity.hours}}</h6>
-                    <p class="card-text">{{activity.description}}</p>
-                    <a *ngIf="activity.routerLink" href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+    </div>
+    <h1>Extra activiteiten</h1>
+    <div class="row row-cols-2">
+        <div class="card" *ngFor="let activity of notObligatoryActivities">
+            <img class="img-fluid img-fixed-height align-self-center p-1" [src]="activity.imageUrl" alt="afbeelding">
+            <div class="card-body">
+                <h5 class="card-title">{{activity.title}}</h5>
+                <h6 class="card-subtitle mb-2">{{activity.domain}}</h6>
+                <h6 class="card-subtitle mb-2">Datum: {{activity.date}}</h6>
+                <h6 class="card-subtitle mb-2">Locatie: {{activity.location}}</h6>
+                <h6 class="card-subtitle mb-2">Uren: {{activity.hours}}</h6>
+                <p class="card-text">{{activity.description}}</p>
+                <a *ngIf="activity.routerLink" [routerLink]="activity.routerLink"
+                    class="btn btn-primary stretched-link">Lees verslag</a>
             </div>
         </div>
     </div>

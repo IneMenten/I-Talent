@@ -7,5 +7,5 @@ export class Activity {
   description!: string;
   imageUrl!: string;
   obligatory!: boolean;
-  routerLink?: string;
+  routerLink?: string[];
 }

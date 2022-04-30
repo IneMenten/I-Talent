@@ -14,7 +14,7 @@ export class ActivityService {
       hours: 26,
       description:
         "Een week die in het teken stond van het research project. Het doel was om je eigen talenten te ontdekken, een hecht team te vormen en professioneel te leren netwerken. Dit door te werken rond de thema's persoonlijke ontwikkeling, onderzoekend handelen en ondernemend handelen.",
-      imageUrl: 'assets/Logo PXL Digital.png',
+      imageUrl: 'assets/logo/Logo PXL Digital.png',
       obligatory: true,
     },
     {
@@ -25,7 +25,7 @@ export class ActivityService {
       hours: 2,
       description:
         'Sessie over de gevaren van digitalisering op breinrust en tips om je brein meer te onstspannen.',
-      imageUrl: 'assets/Logo PXL Digital.png',
+      imageUrl: 'assets/logo/Logo PXL Digital.png',
       obligatory: true,
     },
     {
@@ -36,7 +36,7 @@ export class ActivityService {
       hours: 3,
       description:
         'Seminarie over de CSS-principes flexbox en grid. Deze principes worden gebruikt om objecten te positioneren op een pagina. Er werd eerst uitleg gegeven om vervolgens oefeningen te maken zoals Flexbox Froggy en Grid Garden.',
-      imageUrl: 'assets/Realdolmen.svg',
+      imageUrl: 'assets/logo/Realdolmen.svg',
       obligatory: true,
     },
     {
@@ -47,7 +47,7 @@ export class ActivityService {
       hours: 3,
       description:
         'Seminarie waar dieper ingegaan werd op de geschiedenis van ElasticSearch. Ook werd er meer uitleg gegeven bij het vakjargon en werden er enkele tools besproken. Tenslotte ging het ook over ElasticSearch en testing.',
-      imageUrl: 'assets/Brightest.png',
+      imageUrl: 'assets/logo/Brightest.png',
       obligatory: true,
     },
     {
@@ -58,7 +58,7 @@ export class ActivityService {
       hours: 2,
       description:
         'Sessie over hoe je beter kan samenwerken in team. Er werden tips gegeven over hoe je de veerkracht van je team kan verhogen en waarom dit belangrijk is.',
-      imageUrl: 'assets/Logo PXL Digital.png',
+      imageUrl: 'assets/logo/Logo PXL Digital.png',
       obligatory: true,
     },
     {
@@ -69,7 +69,7 @@ export class ActivityService {
       hours: 3,
       description:
         'Seminarie over GDPR en databeveiliging, Er werd meer verteld over wat GDPR precies omvat en waarom het onstaan is. Het ging ook over databeveiliging en hier werd besproken waar we ons tegen moeten beschermen en hoe we dit best doen.',
-        imageUrl: 'assets/Realdolmen.svg',
+        imageUrl: 'assets/logo/Realdolmen.svg',
         obligatory: true,
     },
     {
@@ -80,7 +80,7 @@ export class ActivityService {
       hours: 3,
       description:
         "Seminarie waar meer uitleg werd gegeven over digital forensics en cybercrime. Bij digital forensics ging het vooral over hoe dit in zijn werk gaat en wat de uitdagingen zijn bij mobiele toestellen en auto's. Er werden ook verschillende thema's binnen cybercrime toegelicht zoals ransomware informaticacriminaliteit en phishing.",
-      imageUrl: 'assets/RCCU.png',
+      imageUrl: 'assets/logo/RCCU.png',
       obligatory: true,
     },
     {
@@ -91,7 +91,7 @@ export class ActivityService {
       hours: 3,
       description:
         "Seminarie over verschillende principes binnen IT-beveiliging. Enkele thema's die behandeld werden zijn data breaches, hacken en GDPR. Een groot deel van het seminarie ging ook over de gevaren van het internet herkennen en hoe je kan voorkomen dat iemand je gegevens in handen krijgt.",
-      imageUrl: 'assets/Ordina.png',
+      imageUrl: 'assets/logo/Ordina.png',
       obligatory: true,
     },
     {
@@ -102,8 +102,8 @@ export class ActivityService {
       hours: 25,
       description:
         "Drie dagen die in het teken stonden van UI en UX met interactieve workshops over persona's, wireframing, HMW en prototyping.",
-      imageUrl: 'assets/Innovatieroute.png',
-      routerLink: "['/activiteiten', 'innovatieroute']",
+      imageUrl: 'assets/logo/Innovatieroute.png',
+      routerLink: ['/innovatieroute'],
       obligatory: true,
     },
     {
@@ -114,7 +114,7 @@ export class ActivityService {
       hours: 3,
       description:
         'Teambuildingactiviteiten met de groep van IT-Project. Het doel was je team beter leren kennen.',
-      imageUrl: 'assets/Logo PXL Digital.png',
+      imageUrl: 'assets/logo/Logo PXL Digital.png',
       obligatory: true,
     },
     {
@@ -125,7 +125,7 @@ export class ActivityService {
       hours: 3,
       description:
         'Seminarie waar de technieken achter BDD (Behaviour Driven Development) worden toegelicht. Deze technieken werden ook toegepast in oefeningen.',
-      imageUrl: 'assets/Eurofins.png',
+      imageUrl: 'assets/logo/Eurofins.png',
       obligatory: true,
     },
     {
@@ -136,7 +136,7 @@ export class ActivityService {
       hours: 3,
       description:
         'Seminarie waar uitleg werd gegeven over Cloud Native Development binnen Accenture. Er werden ook real-life voorbeelden gegeven.',
-      imageUrl: 'assets/Accenture.webp',
+      imageUrl: 'assets/logo/Accenture.webp',
       obligatory: true,
     },
     {
@@ -147,7 +147,7 @@ export class ActivityService {
       hours: 3,
       description:
         'Seminarie over de werking van Docker met praktische oefeningen.',
-      imageUrl: 'assets/Eurofins.png',
+      imageUrl: 'assets/logo/Eurofins.png',
       obligatory: true,
     },
     {
@@ -158,7 +158,7 @@ export class ActivityService {
       hours: 25,
       description:
         'Programmeerwedstrijd georganiseerd door Google. Dit jaar ging de challenge over teams maken met bepaalde vaardigheidsniveaus.',
-      imageUrl: 'assets/Google Hash Code.png',
+      imageUrl: 'assets/logo/Google Hash Code.png',
       obligatory: true,
     },
     {
@@ -169,7 +169,7 @@ export class ActivityService {
       hours: 20,
       description:
         'Het online I-Talent portfolio dat een overzicht biedt van de verschillende onderdelen van I-Talent.',
-      imageUrl: 'assets/Logo PXL Digital.png',
+      imageUrl: 'assets/logo/Logo PXL Digital.png',
       obligatory: true,
     },
     {
@@ -180,8 +180,8 @@ export class ActivityService {
       hours: 40,
       description:
         'Website met educatieve artikels rond het thema vroedkunde van studenten voor studenten.',
-      imageUrl: 'assets/Eigen Project.png',
-      routerLink: "['/activiteiten', 'website-studenten-vroedkunde']",
+      imageUrl: 'assets/logo/Eigen Project.png',
+      routerLink: ['/website-studenten-vroedkunde'],
       obligatory: false,
     },
     {
@@ -192,8 +192,8 @@ export class ActivityService {
       hours: 25,
       description:
         'In samenwerking met studentent van LUCA School of Arts een computerspel maken voor bewoners of hulpverleners van Sint-Oda.',
-      imageUrl: 'assets/Sint Oda.webp',
-      routerLink: "['/activiteiten', 'hackathon-sint-oda']",
+      imageUrl: 'assets/logo/Sint Oda.webp',
+      routerLink: ['/hackathon-sint-oda'],
       obligatory: false,
     },
   ];

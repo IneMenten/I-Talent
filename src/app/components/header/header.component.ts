@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { filter, map } from 'rxjs/operators';
 
@@ -8,7 +8,7 @@ import { filter, map } from 'rxjs/operators';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  @Input() title: string = '';
+  title: string = '';
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {
     this.router.events
       .pipe(
