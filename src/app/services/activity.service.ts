@@ -24,7 +24,7 @@ export class ActivityService {
       location: 'PXL',
       hours: 2,
       description:
-        'Sessie over de gevaren van digitalisering op breinrust en tips om je brein meer te onstspannen.',
+        'Sessie over de gevaren van digitalisering op breinrust. Er werd ook besproken hoe je taken kan prioriteren. In de sessie werden verder tips gegeven over hoe je best je brein kan ontspannen.',
       imageUrl: 'assets/logo/Logo PXL Digital.png',
       obligatory: true,
     },
@@ -35,7 +35,7 @@ export class ActivityService {
       location: 'PXL',
       hours: 3,
       description:
-        'Seminarie over de CSS-principes flexbox en grid. Deze principes worden gebruikt om objecten te positioneren op een pagina. Er werd eerst uitleg gegeven om vervolgens oefeningen te maken zoals Flexbox Froggy en Grid Garden.',
+        'Seminarie over de CSS-principes flexbox en grid. Deze principes worden gebruikt om objecten te positioneren op een pagina. Er werd eerst uitleg gegeven om vervolgens oefeningen te maken, zoals Flexbox Froggy en Grid Garden.',
       imageUrl: 'assets/logo/Realdolmen.svg',
       obligatory: true,
     },
@@ -46,7 +46,7 @@ export class ActivityService {
       location: 'PXL',
       hours: 3,
       description:
-        'Seminarie waar dieper ingegaan werd op de geschiedenis van ElasticSearch. Ook werd er meer uitleg gegeven bij het vakjargon en werden er enkele tools besproken. Tenslotte ging het ook over ElasticSearch en testing.',
+        'Seminarie waar dieper ingegaan werd op de geschiedenis van ElasticSearch. Ook werd meer uitleg gegeven bij het vakjargon en werden enkele tools besproken. Tenslotte ging het ook over ElasticSearch en testing.',
       imageUrl: 'assets/logo/Brightest.png',
       obligatory: true,
     },
@@ -68,9 +68,9 @@ export class ActivityService {
       location: 'PXL',
       hours: 3,
       description:
-        'Seminarie over GDPR en databeveiliging, Er werd meer verteld over wat GDPR precies omvat en waarom het onstaan is. Het ging ook over databeveiliging en hier werd besproken waar we ons tegen moeten beschermen en hoe we dit best doen.',
-        imageUrl: 'assets/logo/Realdolmen.svg',
-        obligatory: true,
+        'Seminarie over GDPR en databeveiliging. Er werd meer verteld over wat GDPR precies omvat en waarom het ontstaan is. Het ging ook over databeveiliging en hier werd besproken waar we ons tegen moeten beschermen en hoe we dit best doen.',
+      imageUrl: 'assets/logo/Realdolmen.svg',
+      obligatory: true,
     },
     {
       title: 'Seminarie RCCU',
@@ -101,7 +101,7 @@ export class ActivityService {
       location: 'PXL',
       hours: 25,
       description:
-        "Drie dagen die in het teken stonden van UI en UX met interactieve workshops over persona's, wireframing, HMW en prototyping.",
+        "Drie dagen die in het teken stonden van UI en UX met interactieve workshops over persona's, wireframing, HMW en prototyping. Voor de workshops mocht iedere groep een thema kiezen om rond te werken. Ik heb gewerkt rond de planning van De Lijn-bussen.",
       imageUrl: 'assets/logo/Innovatieroute.png',
       routerLink: ['/innovatieroute'],
       obligatory: true,
@@ -113,7 +113,7 @@ export class ActivityService {
       location: 'PXL',
       hours: 3,
       description:
-        'Teambuildingactiviteiten met de groep van IT-Project. Het doel was je team beter leren kennen.',
+        'Teambuildingactiviteiten met de groep van IT-Project. Het doel was je team beter leren kennen en te ontdekken welke rol je zelf speelt binnen een team.',
       imageUrl: 'assets/logo/Logo PXL Digital.png',
       obligatory: true,
     },
@@ -124,7 +124,7 @@ export class ActivityService {
       location: 'PXL',
       hours: 3,
       description:
-        'Seminarie waar de technieken achter BDD (Behaviour Driven Development) worden toegelicht. Deze technieken werden ook toegepast in oefeningen.',
+        'Seminarie waar de technieken achter BDD (Behaviour Driven Development) werden toegelicht. Deze technieken werden ook toegepast in oefeningen.',
       imageUrl: 'assets/logo/Eurofins.png',
       obligatory: true,
     },
@@ -146,7 +146,7 @@ export class ActivityService {
       location: 'PXL',
       hours: 3,
       description:
-        'Seminarie over de werking van Docker met praktische oefeningen.',
+        'Seminarie over de werking van Docker met oefeningen. Er werd uitgelegd dat Docker werkt met containers en wat dit precies inhoudt. De oefeningen waren op basisniveau.',
       imageUrl: 'assets/logo/Eurofins.png',
       obligatory: true,
     },
@@ -168,7 +168,7 @@ export class ActivityService {
       location: '/',
       hours: 20,
       description:
-        'Het online I-Talent portfolio dat een overzicht biedt van de verschillende onderdelen van I-Talent.',
+        'De uitwerking van mijn I-Talentportfolio. Voor de creatieve uitwerking heb ik gekozen voor een website die te bezoeken is op volgende link: https://inementen.github.io/I-Talent/.',
       imageUrl: 'assets/logo/Logo PXL Digital.png',
       obligatory: true,
     },
@@ -179,7 +179,7 @@ export class ActivityService {
       location: '/',
       hours: 40,
       description:
-        'Website met educatieve artikels rond het thema vroedkunde van studenten voor studenten.',
+        'Website met educatieve artikels rond het thema vroedkunde van studenten voor studenten. De website is te vinden via volgende link: https://metliefdegedragen.github.io/.',
       imageUrl: 'assets/logo/Eigen Project.png',
       routerLink: ['/website-studenten-vroedkunde'],
       obligatory: false,
@@ -191,7 +191,7 @@ export class ActivityService {
       location: 'Sint-Oda, LUCA School of Arts, PXL',
       hours: 25,
       description:
-        'In samenwerking met studentent van LUCA School of Arts een computerspel maken voor bewoners of hulpverleners van Sint-Oda.',
+        'In samenwerking met studenten van LUCA School of Arts een computerspel maken voor bewoners of hulpverleners van Sint-Oda. We werden per groep aan één project gekoppeld en dit moesten we op drie dagen tijd uitwerken.',
       imageUrl: 'assets/logo/Sint Oda.webp',
       routerLink: ['/hackathon-sint-oda'],
       obligatory: false,
