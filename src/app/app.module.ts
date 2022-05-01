@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { InnovatierouteComponent } from './components/activities/innovatieroute/innovatieroute.component';
 import { EigenProjectComponent } from './components/activities/eigen-project/eigen-project.component';
 import { HackathonSintOdaComponent } from './components/activities/hackathon-sint-oda/hackathon-sint-oda.component';
+import { ReflectionComponent } from './components/reflection/reflection.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HackathonSintOdaComponent } from './components/activities/hackathon-sin
     InnovatierouteComponent,
     EigenProjectComponent,
     HackathonSintOdaComponent,
+    ReflectionComponent,
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { EigenProjectComponent } from './components/activities/eigen-project/eig
 import { HackathonSintOdaComponent } from './components/activities/hackathon-sint-oda/hackathon-sint-oda.component';
 import { InnovatierouteComponent } from './components/activities/innovatieroute/innovatieroute.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
+import { ReflectionComponent } from './components/reflection/reflection.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,11 @@ const routes: Routes = [
     path: 'hackathon-sint-oda',
     component: HackathonSintOdaComponent,
     data: { title: 'Hackathon Sint-Oda', state: '4' },
+  },
+  {
+    path: 'eindreflectie',
+    component: ReflectionComponent,
+    data: { title: 'Eindreflectie', state: '5' },
   },
   {
     path: '',
