@@ -79,7 +79,7 @@ export class ActivityService {
       location: 'PXL',
       hours: 3,
       description:
-        "Seminarie waar meer uitleg werd gegeven over digital forensics en cybercrime. Bij digital forensics ging het vooral over hoe dit in zijn werk gaat en wat de uitdagingen zijn bij mobiele toestellen en auto's. Er werden ook verschillende thema's binnen cybercrime toegelicht zoals ransomware informaticacriminaliteit en phishing.",
+        "Seminarie waar meer uitleg werd gegeven over digital forensics en cybercrime. Bij digital forensics ging het vooral over hoe dit in zijn werk gaat en wat de uitdagingen zijn bij mobiele toestellen en auto's. Er werden ook verschillende thema's binnen cybercrime toegelicht zoals ransomware, informaticacriminaliteit en phishing.",
       imageUrl: 'assets/logo/RCCU.png',
       obligatory: true,
     },

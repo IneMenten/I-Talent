@@ -16,7 +16,7 @@ const routes: Routes = [
   {
     path: 'activiteiten',
     component: ActivitiesComponent,
-    data: { title: 'Overzicht activiteiten', state: '1' },
+    data: { title: 'Activiteiten', state: '1' },
   },
   {
     path: 'website-studenten-vroedkunde',
